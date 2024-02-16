@@ -4,6 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Basic Responsive</title>
+
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            row-gap: 40px;
+        }
+
+        .Gym {
+            border: 2px solid purple;
+            text-align: center;
+        }
+
+        img {
+            width: 300px;
+            height: 200px;
+        }
+
+        @media screen and (max-width:576px) {
+            .container {
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+    </style>
 </head>
 <body>
 
