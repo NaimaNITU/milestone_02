@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7 things for responsive</title>
+
+    <!-- some also do responsive like this((((no 3 in list))))  -->
+    <style>
+        body {
+            border: 1px solid greenyellow;
+            max-width: 1140px;
+            margin: 0 auto;
+        }
+
+
+        /* this is for 4 no in list called image fluid */
+        .image_container {
+            display: flex;
+        }
+
+        .image_container div {
+            width: 50%;
+        }
+
+        .image_container img {
+            width: 100%;
+        }
+
+
+        /* this is for 5 no in list called media query with others */
+        @media screen and (max-width: 576px) {
+
+            .image_container {
+                flex-direction: column;
+            }
+
+            .image_container div {
+                width: 100%;
+            }
+
+        }
+    </style>
+
+
+
+
+</head>
+<body>
+    <header>
+        <ol>
+            <li>viewport meta tag(
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                )
+            </li>
+            <li>Always use CSS relative unit like em, vh, percentage etc</li>
+            <li>body max-width and horizontal center align</li>
+            <li>image fluid(make width=100%)</li>
+            <li>for only two column: flex and use media query with flex direction column</li>
+            <li>for multi column: grid layout use</li>
+            <li>menu responsive we need javascript</li>
+        </ol>
+
+        <div class="image_container">
+            <div><img src="images/belly-fat.webp" alt="" class="img_"></img>
+            </div>
+
+            <div><img src="images/bridal.jpg" alt="" class="img_"></img>
+            </div>
+        </div>
+    </header>
+</body>
+</html>
