@@ -1,0 +1,21 @@
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.row {
+    height: 500px;
+    display: flex;
+    gap: 4px;
+    margin-bottom: 4px;
+}
+
+.second_row_doble_img {
+    height: 50%;
+    width: 100%;
+}
+
+.square_collage {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
