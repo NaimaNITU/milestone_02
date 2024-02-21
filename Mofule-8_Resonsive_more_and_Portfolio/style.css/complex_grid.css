@@ -1,8 +1,22 @@
 box {
-    background-color: blue;
+    background-color: rgb(97, 97, 99);
 }
 
 .container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 200px);
+    gap: 15px;
+}
+
+#box_1 {
+    grid-row: span 5;
+}
+
+#box_11 {
+    grid-column: span 3;
+}
+
+#box_12 {
+    grid-column: span 3;
 }
