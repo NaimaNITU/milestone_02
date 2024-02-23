@@ -1,0 +1,263 @@
+/* Header-navigation releted styles */
+.header_nav {
+    background-color: #FFF8F3;
+    background-image: url('images/header_bg.png')
+        /*, url('images/developer.png')*/
+    ;
+    background-repeat: no-repeat;
+    background-position: bottom right, top left;
+    background-size: 550px;
+    width: 100%;
+}
+
+.developer_bg {
+    position: absolute;
+    top: 5px;
+    left: 0px;
+    height: 625px;
+    width: 80px;
+    padding-left: 20px;
+
+}
+
+.my_first_name {
+    font-size: 40px;
+    font-style: bold;
+    margin: 30px 0px 0px 170px;
+    font-weight: 800;
+
+}
+
+.letter_i_style {
+    color: #FD6E0A;
+}
+
+.hire_me_btn,
+.dwnld_cv_btn,
+.contact_btn {
+    background-color: #FD6E0A;
+    color: white;
+    font-size: 15px;
+    border: 0;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-weight: 550;
+}
+
+.contact_btn {
+    color: #FD6E0A;
+    background-color: #FFF8F3;
+    border: 1px solid #FD6E0A;
+    padding: 9px 19px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFF8F3;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav>.li_nav {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 40px 170px 0px 0px;
+    align-items: center;
+}
+
+nav .li_nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.dwnld_cv_btn,
+.contact_btn {
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+
+/* Header-banner releted styles */
+.banner {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px 0px 0px 170px;
+    display: flex;
+
+}
+
+.myself_in_short {
+    color: gray;
+}
+
+.banner_element {
+    padding: 120px 300px 0px 0px;
+    gap: 30px;
+}
+
+.my_full_name {
+    font-size: 50px;
+}
+
+.my_image {
+    height: 550px;
+    width: 300px;
+    padding-right: 100px;
+}
+
+
+/* About me style */
+
+.about {
+
+    width: 40%;
+    background-color: #FFF8F3;
+    margin: 70px auto;
+    text-align: center;
+    padding: 100px 200px;
+}
+
+.person_about_info {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.about_me_title {
+    font-size: 28px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.about_me_description {
+    color: gray;
+}
+
+/* what do i do section */
+.what_do_i_do_title {
+    font-size: 28px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.what_do_i_do {
+    width: 60%;
+    background-color: white;
+    margin: 70px auto;
+    text-align: center;
+
+}
+
+.all_skills {
+    display: flex;
+    gap: 20px;
+}
+
+.single_coding_skills {
+    background-color: #F8F8FF;
+    padding: 30px;
+    text-align: left;
+}
+
+.what_do_i_do_details {
+    color: gray;
+    padding: 20px 90px;
+}
+
+.skill_details {
+    color: gray;
+
+}
+
+
+
+/* Resume Section */
+.resume_section {
+    font-family: 'Open Sans', sans-serif;
+    width: 60%;
+    background-color: white;
+    margin: 70px auto;
+    text-align: center;
+}
+
+.two_resume_column {
+    display: flex;
+    text-align: left;
+    gap: 15px;
+}
+
+.resume_column {
+    padding-left: 30px;
+}
+
+.degree_details,
+.experience_details {
+    color: gray;
+    font-size: 15px;
+}
+
+.experience_name,
+.degree_name {
+    margin: 0px;
+}
+
+.resume_title {
+    margin: 50px 0px;
+}
+
+.column_title {
+    margin: 30px 0px;
+}
+
+.download_cv {
+    background-color: #FD6E0A;
+    color: white;
+    font-size: 15px;
+    border: 0;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-weight: 550;
+    margin: 20px 0px 20px 0px;
+}
+
+hr {
+    margin: 30px 0px;
+    background-color: gray;
+}
+
+/* footer design */
+.full_footer {
+    display: flex;
+    background-color: #FFF8F3;
+    font-family: 'Open Sans', sans-serif;
+    width: 60%;
+    margin: 70px auto;
+    text-align: left;
+}
+
+.each_footer {
+    margin: 50px;
+}
+
+#person_name,
+#person_email {
+    padding: 15px 90px 15px 10px;
+    margin-bottom: 10px;
+    border: 0;
+    background-color: white;
+}
+
+#personal_mseg {
+    border: 0;
+    padding-left: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.submit_personal_mseg {
+    background-color: #FD6E0A;
+    color: white;
+    font-size: 15px;
+    border: 0;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-weight: 550;
+    margin: 10px 0px;
+}
