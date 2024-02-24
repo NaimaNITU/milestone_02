@@ -261,3 +261,51 @@ hr {
     font-weight: 550;
     margin: 10px 0px;
 }
+
+
+/* Responsive styles */
+/* for mobile devices */
+.hide {
+    display: none;
+}
+
+/* Skill section responsive */
+@media screen and (max-width: 576px) {
+    .all_skills {
+        flex-direction: column;
+        margin: 0px;
+    }
+
+    .what_do_i_do_details {
+        padding: 0;
+    }
+}
+
+/* Resume section responsive */
+@media screen and (max-width: 576px) {
+    .two_resume_column {
+        flex-direction: column;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .resume_column {
+        padding: 0px;
+        margin: 0px;
+    }
+}
+
+/* footer section responsive */
+@media screen and (max-width: 576px) {
+    .full_footer {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    .each_footer {
+        padding: 0px;
+        margin: 0px;
+    }
+
+}
