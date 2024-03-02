@@ -26,26 +26,39 @@
                 </div>
 
 
-                <div class="company_size"><label for="company_size">Company size</label>
+                <div class="company_size">
+                    <!-- <label for="company_size">Company size</label>
                     <input type="text" id="company_size" placeholder="50-100 employees">
                     <select name="" id="company_size">
                         <option value=""></option>
+                     </select> -->
+
+                    <label for="company_size">Company Size</label>
+                    <select id="company_size" name="company_size">
+                        <option value="1-10">1-10 employees</option>
+                        <option value="11-50">11-50 employees</option>
+                        <option value="51-100" selected>50-100 employees</option>
+                        <option value="101-250">101-250 employees</option>
+                        <option value="251+">251+ employees</option>
                     </select>
+
                 </div>
 
 
                 <div class="subject"><label for="subject">Subject</label>
-                    <input type="text" id="subject" placeholder="Building landing page">
                     <select>
-                        <option value=""></option>
+                        <option value="">Building landing page</option>
                         <option value=""></option>
                         <option value=""></option>
                     </select><br><br>
                 </div>
 
 
-                <div class="mseg"><textarea name="" id="message" cols="30" rows="10"
-                        placeholder="Message"></textarea><br>
+                <div class="mseg">
+                    <Fieldset>
+                        <label for="">50-100 employee</label>
+                        <!-- <legend>50-100 employee</legend> -->
+                    </Fieldset><br>
                 </div>
 
 

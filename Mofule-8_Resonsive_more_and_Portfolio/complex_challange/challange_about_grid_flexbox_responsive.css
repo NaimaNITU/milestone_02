@@ -1,4 +1,23 @@
+body {
+    background-image: url('../../images/images/bg-image.svg');
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
 .form {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+fieldset {
+    height: 100px;
+    width: 100%;
+}
+
+.button {
+    width: 100%;
 }
